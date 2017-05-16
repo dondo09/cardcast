@@ -59,6 +59,6 @@ app.use((err, req, res, next) => {
   res.status(status).send(err.message);
 });
 
-app.listen(8000, () => {
-  console.log('Server is listening on port 8000!');
+app.listen(8080, () => {
+  console.log('Server is listening on port 8080!');
 });
